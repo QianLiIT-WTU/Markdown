@@ -11,36 +11,36 @@
 
 ## markdown语法
 - 语法一
-  - [标题](markdown.md#标题)
-  - [段落](markdown.md#段落)
-  - [强调](markdown.md#强调)
-  - [列表](markdown.md#列表)
- 
+  - [标题](README.md#标题)
+  - [段落](README.md#段落)
+  - [强调](README.md#强调)
+  - [列表](README.md#列表)
+
 - 语法二
-  - [链接](markdown.md#链接)
-  - [图片](markdown.md#图片)
-  - [引用](markdown.md#引用)
-  - [代码块](markdown.md#代码块)
-  
+  - [链接](README.md#链接)
+  - [图片](README.md#图片)
+  - [引用](README.md#引用)
+  - [代码块](README.md#代码块)
+
 - 语法三
-  - [表格](markdown.md#表格)
-  - [水平分割线](markdown.md#水平分割线)
-  - [HTML语法](markdown.md#HTML语法)
-  - [GFM](markdown.md#GFM)
-  - [表情符号](markdown.md#表情符号)
-  
+  - [表格](README.md#表格)
+  - [水平分割线](README.md#水平分割线)
+  - [HTML语法](README.md#HTML语法)
+  - [GFM](README.md#GFM)
+  - [表情符号](README.md#表情符号)
+
 - 语法四
-  - [混合强调样式](markdown.md#混合强调样式)
-  - [图片链接](markdown.md#图片链接)
-  - [有序表的打断与连接](markdown.md#有序表的打断与连接)
+  - [混合强调样式](README.md#混合强调样式)
+  - [图片链接](README.md#图片链接)
+  - [有序表的打断与连接](README.md#有序表的打断与连接)
 
 ## markdown工具
-- [Windows 平台](markdown.md#Windows平台)
-- [Linux 平台](markdown.md#Linux平台)
-- [Mac 平台](markdown.md#Mac平台)
-- [在线编辑器](markdown.md#在线编辑器)
-- [浏览器插件](markdown.md#浏览器插件)
-- [高级应用](markdown.md#高级应用)
+- [Windows 平台](README.md#Windows平台)
+- [Linux 平台](README.md#Linux平台)
+- [Mac 平台](README.md#Mac平台)
+- [在线编辑器](README.md#在线编辑器)
+- [浏览器插件](README.md#浏览器插件)
+- [高级应用](README.md#高级应用)
 
 
 
@@ -66,25 +66,25 @@
 ```
 
 # 段落
-正常打字出来的都是段落正文   
+正常打字出来的都是段落正文
 两个段落之间换行-----**两个空格**
 
 # 强调
 
-我是*斜体*文字样式  
-我是**粗体**文字样式  
-我是***加粗倾斜***样式  
+我是*斜体*文字样式
+我是**粗体**文字样式
+我是***加粗倾斜***样式
 
-我是~~删除文字样式~~  
+我是~~删除文字样式~~
 
 # 列表
 
 ### 无序列表
-- 季节 
+- 季节
   - 春
   - 夏
-  - 秋  
-  - 冬（只要在开头加**两个空格**） 
+  - 秋
+  - 冬（只要在开头加**两个空格**）
 - 年代
 
 ### 有序列表
@@ -97,30 +97,30 @@
 
 # 链接
 ### 内嵌式链接
-  - 外部链接  
+  - 外部链接
    [百度](http://www.baidu.com)
   - 内部链接
     - 链接仓库的其他文件[demo1](Demo1.md)
     - 链接本文档的其他部分[代码块](Demo2.md#代码块)
-    
+
 ### 引用式链接
-- 外部链接  
+- 外部链接
    [百度]
   - 内部链接
     - 链接仓库的其他文件[markdown]
     - 链接本文档的其他部分[代码块]
-    
+
 # 图片
 
 - 外部图片
-  ![alt](url text)  
-  ![my github avatar](https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3025836231,1085548956&fm=26&gp=0.jpg "我的github图标")  
- - 内部图片  
- ![alt](url text)  
-  ![谭咏麟](image/photo.jpg "谭咏麟") 
-  
+  ![alt](url text)
+  ![my github avatar](https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3025836231,1085548956&fm=26&gp=0.jpg "我的github图标")
+ - 内部图片
+ ![alt](url text)
+  ![谭咏麟](image/photo.jpg "谭咏麟")
+
 - 图片的引用式链接
-  - ![my github avatar]    
+  - ![my github avatar]
   - ![谭咏麟]
 
 # 引用
@@ -138,7 +138,7 @@
 
 这个代码用来声明变量是`var = a`,用来打印变量函数是`console.log(a)`;
 
-- 块式代码  
+- 块式代码
 
 ```javascript
 var a = 10;
@@ -172,13 +172,13 @@ ___
 <!--表格默认左对齐，这一行通过: 控制左右对齐-->
 
 | 这     | 是      | 表    | 头     |
-| ----|:----:|-----|----:|    
+| ----|:----:|-----|----:|
 |row1 |row2  |row3 | row4|
 |**加粗**|[baidu](http://www.baidu.com)|ajhdfjk|![表格图片](images/photo.jpg "谭咏麟" )|
 
 ```
 | 这     | 是      | 表    | 头     |
-| ----|:----:|-----|----:|    
+| ----|:----:|-----|----:|
 |row1 |row2  |row3 | row4|
 |**加粗**|[baidu](http://www.baidu.com)|ajhdfjk|![表格图片](images/photo.jpg "谭咏麟" )|
 ```
@@ -189,7 +189,7 @@ github flvored markdown
  - [x] task1
  - [ ] task2
  - [ ] task3
-  
+
  # 表情符号
     :emoji code:
 
@@ -197,8 +197,8 @@ github flvored markdown
 [github表情符号码官网](http://www.emoji-cheat-sheet.com)
 或者在[这里](emoji.md)
 :last_quarter_moon_with_face::first_quarter_moon_with_face:
-  
-  
+
+
 # 混合强调样式
 
 基本强调样式
@@ -219,13 +219,13 @@ github flvored markdown
 基本文字链接
 
     [链接文字](URL)
-    
+
     [baidu](http://www.baidu.com)
 
 基本图片
 
     ![alt](url text)
-    
+
 ![谭咏麟](images/photo.jpg "谭咏麟")
 
 图片链接
@@ -238,37 +238,37 @@ github flvored markdown
 - 问题一：多级列表打断------空行不行，用文字打断
 - 问题二：多级列表连接------将文字段落缩进四格
 
-1. item1  
+1. item1
   1. item1.1
   2. item1.2
-  
+
 2. item2
   1. item2.1
   2. item2.2
-  
-这段文字用来打断2和3，重新编号  
-  
+
+这段文字用来打断2和3，重新编号
+
 
 3. item3
   1. item3.1
-  2. item3.2  
+  2. item3.2
 
 ---
 
-1. item1  
+1. item1
   1. item1.1
   2. item1.2
-  
+
 2. item2
   1. item2.1
   2. item2.2
-  
-    这段文字用来缩进4格，不会打断2和3  
-  
+
+    这段文字用来缩进4格，不会打断2和3
+
 
 3. item3
   1. item3.1
-  2. item3.2  
+  2. item3.2
 
 
 
@@ -312,9 +312,7 @@ github flvored markdown
 
 <!--下面是本文所用到的链接-->
 [百度]: http://baidu.com
-[markdown]: markdown.md  
-[代码块]: markdown.md#代码块
-[谭咏麟]: image/photo.jpg "谭咏麟" 
-[my github avatar]: https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3025836231,1085548956&fm=26&gp=0.jpg "我的github图标"  
-
-
+[markdown]: README.md
+[代码块]: README.md#代码块
+[谭咏麟]: image/photo.jpg "谭咏麟"
+[my github avatar]: https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3025836231,1085548956&fm=26&gp=0.jpg "我的github图标"
